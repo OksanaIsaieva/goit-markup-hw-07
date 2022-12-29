@@ -15,7 +15,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--main-h-color);
+  color: $main-h-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-item {
@@ -29,14 +29,14 @@
   position: absolute;
   bottom: -1px;
   left: 0;
-  background-color: var(--action-color);
+  background-color: $action-color;
   border-radius: 2px;
 }
 .navigation-item > a:focus,
 .navigation-item > a:hover,
 .navigation-item > a:active,
 .navigation-item.active > a {
-  color: var(--action-color);
+  color: $action-color;
 }
 .navigation-item {
   padding: 32px 0;
@@ -66,12 +66,12 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-family: inherit;
-  color: var(--main-text-color);
+  color: $main-text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-conteiner > a:focus,
 .header-contacts-conteiner > a:hover {
-  color: var(--action-color);
+  color: $action-color;
 }
 
 .header-contacts-conteiner a svg {
@@ -82,6 +82,6 @@
 }
 .header-contacts-conteiner a:hover svg,
 .header-contacts-conteiner a:focus svg {
-  fill: var(--action-color);
+  fill: $action-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

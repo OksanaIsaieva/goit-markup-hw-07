@@ -11,7 +11,7 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-h-color);
+  color: $main-h-color;
   margin-bottom: 50px;
 }
 .partners-container .partners-list {
@@ -46,9 +46,9 @@
 }
 .partners-link:hover,
 .partners-link:focus {
-  border-color: var(--action-color);
+  border-color: $action-color;
 }
 .partners-link:hover .partners-logo,
 .partners-link:focus .partners-logo {
-  fill: var(--action-color);
+  fill: $action-color;
 }
