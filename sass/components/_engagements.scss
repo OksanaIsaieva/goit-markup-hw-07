@@ -1,7 +1,7 @@
 .engagement {
   padding-bottom: 94px;
 }
-.engagement-title {
+.engagement__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -10,23 +10,23 @@
   width: 100%;
   margin-bottom: 50px;
 }
-.engagement-list {
+.engagement__list {
   display: flex;
 }
-.engagement-item {
+.engagement__item {
   width: calc((100% - 60px) / 3);
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-.engagment-item-container {
+.engagment__item-container {
   position: relative;
   img {
     display: block;
   }
 }
 
-.engagement-text {
+.engagement__text {
   font-size: 14px;
   line-height: 16px;
   text-align: center;

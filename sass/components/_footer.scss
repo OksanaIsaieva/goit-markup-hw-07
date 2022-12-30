@@ -4,19 +4,19 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-main-container {
+.footer__main-container {
   display: flex;
 }
-.footer-container {
+.footer__container {
   display: flex;
   flex-wrap: wrap;
   width: 25%;
 }
-.footer-address-container {
+.footer__address-container {
   padding-top: 20px;
   margin-right: 70px;
 }
-.footer-contacts {
+.footer__contacts {
   text-decoration: none;
   font-family: inherit;
   font-style: normal;
@@ -25,17 +25,17 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-adress {
+.footer-adress__white-text {
   color: #ffffff;
-}
-.footer-list .footer-address-item:not(:last-child) {
+  .footer-address__item:not(:last-child) {
   margin-bottom: 9px;
+};
 }
-.social-links-container {
+.footer__social-links-container {
   padding: 0 20px;
   width: 25%;
 }
-.footer-title {
+.footer__title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -44,17 +44,16 @@
   margin-top: 12px;
   margin-bottom: 20px;
 }
-.footer-social-links-list {
+.footer__social-links-list {
   display: flex;
   justify-content: start;
   align-items: center;
   li:not(:last-child) a {
     margin-right: 10px;
-  }
-  
+  };
 }
 
-.footer-social-links {
+.footer__social-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,9 +65,9 @@
   &:hover,
     &:focus {
   background-color: $action-color;
+};
 }
-}
-.social-links-icon {
+.footer__social-links__icon {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -76,5 +75,5 @@
   .footer-social-links:hover &,
 .footer-social-links:focus & {
   fill: #ffffff;
-}
+};
 }

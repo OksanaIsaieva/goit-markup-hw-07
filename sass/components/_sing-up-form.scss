@@ -9,8 +9,8 @@
     align-self: start;
     padding: 0 15px;
   }
-  .footer-form-header {
-    display: inline-block;
+  .sign-up-form__header {
+    display: inherit;
     width: 100%;
     font-weight: 700;
     font-size: 14px;
@@ -21,7 +21,7 @@
     margin-bottom: 20px;
     margin-top: 12px;
   }
-  .footer-sign-up > input {
+  .sign-up-form__label > input {
     box-sizing: border-box;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -32,8 +32,16 @@
     width: 100%;
     padding: 15px 16px;
     color: #fff;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25em;
+      letter-spacing: 0.03em;
+    
+      color: rgba(255, 255, 255, 0.6);
+    };
   }
-  .sign-up-btn {
+  .sign-up-form__btn {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -52,17 +60,8 @@
     padding: 10px 28px;
     margin-left: 12px;
   }
-  .icon-send {
+  .sign-up-form__icon-send {
     width: 24px;
     height: 24px;
     margin-left: 10px;
   }
-  .footer-sign-up > input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25em;
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
