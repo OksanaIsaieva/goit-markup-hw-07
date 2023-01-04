@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto";
+}
+
 .list {
   list-style-type: none;
 }
@@ -566,6 +570,7 @@ a {
   box-sizing: border-box;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
@@ -709,6 +714,7 @@ a {
   border-radius: 4px;
   padding: 10px 42px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .form__client-info-block input:focus {
   border: 1px solid #2196f3;
@@ -748,6 +754,7 @@ a {
   margin-bottom: 20px;
   margin-top: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .form__coment:focus {
   border-color: #2196f3;
@@ -777,6 +784,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
   opacity: 0;
+  outline: none;
 }
 .form__checkbox-text svg {
   cursor: pointer;
